@@ -1,6 +1,7 @@
 import {Hero} from './hero';
 import { MockResourceLoader } from '@angular/compiler/testing';
 
+//Creates Hero object called HEROES with data
 export const HEROES: Hero[] = [
     {id: 11, name: "Mr. Nice"},
     {id: 12, name: "Narco"},

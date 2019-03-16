@@ -7,6 +7,7 @@ import {Hero} from "../hero"
   styleUrls: ['./hero-detail.component.css']
 })
 export class HeroDetailComponent implements OnInit {
+  //Use @Input to signify that a Hero object called hero will have input
   @Input() hero: Hero;
 
   constructor() { }

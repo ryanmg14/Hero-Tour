@@ -2,6 +2,10 @@
 
 <h2>My Heroes</h2>
 <ul class="heroes">
+  <!-- *ngFor is a for each loop -->
+  <!-- (click)='onSelect(hero) assigns a click event to each hero
+        that triggers the onSelect method' -->
+  <!-- [class.VAR1] =  "VAR2 === VAR3" Applies class VAR1 if true-->
   <li *ngFor='let hero of heroes' 
       (click)='onSelect(hero)'
       [class.selected]="hero===selectedHero"
